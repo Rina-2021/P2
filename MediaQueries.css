@@ -180,8 +180,7 @@
     margin-right: 5%;
     font-size: 1.1em;
     font-weight: normal;
-    text-align: justify;
-  }
+    text-align: left;
 }
 
 /*Main Elements of the filter */
@@ -337,8 +336,8 @@
   .images {
     object-fit: cover;
     object-position: center;
-    width: 334px;
-    height: 134px;
+    width: 337px;
+    height: 192px;
     border-radius: 15px 15px 0px 0px;
   }
 }
