@@ -29,14 +29,14 @@ h1 {
 h2 {
   font-size: 0.8em;
   font-weight: bold;
-  font-family: "Raleway-VariableFont_wght";
+  font-family: "Raleway";
 }
 
 h3 {
   padding-left: 5%;
   font-size: 0.7em;
   font-weight: bold;
-  font-family: "Raleway-VariableFont_wght";
+  font-family: "Raleway";
 }
 
 h4 {
@@ -44,25 +44,25 @@ h4 {
   font-size: 0.8em;
   font-weight: bold;
   text-align: justify;
-  font-family: "Raleway-VariableFont_wght";
+  font-family: "Raleway";
 }
 
 h5 {
   font-size: 0.9em;
   font-weight: normal;
-  font-family: "Raleway-VariableFont_wght";
+  font-family: "Raleway";
 }
 
 h6 {
   font-size: 0.9em;
   font-weight: normal;
-  font-family: "Raleway-VariableFont_wght";
+  font-family: "Raleway";
 }
 
 p {
   padding-left: 5%;
   font-size: 0.8em;
-  font-family: "Raleway-VariableFont_wght";
+  font-family: "Raleway";
 }
 
 label {
