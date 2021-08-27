@@ -109,8 +109,6 @@ a visited {
   color: black;
 }
 
-/*Menu navbar */
-
 header {
   position: relative;
   display: flex;
@@ -127,15 +125,10 @@ header {
   left: 0;
 }
 
-.navbar {
-  margin-left: auto;
-  justify-content: flex-end;
-  margin-bottom: 10px;
-}
-
 nav {
   display: flex;
   flex-grow: 1;
+  justify-content: flex-end; /* important */
   font-size: 1em;
   text-decoration: none;
   text-align: center;
@@ -156,8 +149,7 @@ nav a {
   text-align: center;
   font-size: 1em;
   text-decoration: none;
-  padding: 15px 15px;
-  background-color: #fff;
+  /* padding: 15px 15px; */
   color: #0065fc;
 }
 

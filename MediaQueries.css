@@ -57,33 +57,30 @@
 
   nav a {
     font-size: 1em; 
+    padding-bottom: 20px;
   }
 
   nav a:hover {
     border-bottom: solid 3px #0065fc;
     border-top: 0;
     padding-top: 0;
-    
   }
 
   nav a:first-child {
     margin-top: 20%;
-    margin-right: 30px;
-    padding-bottom: 20px;
+    width: 50%; /* this is important */
   }
 
   nav a:nth-child(2) {
+    width: 50%; /* this is important */
     margin-top: 20%;
-    margin-left: 10px;
-    padding-bottom: 20px;
   }
 
   nav a:nth-child(3) {
-    order: 1;
+    order: -1;
+    width: 100%; /* this is important */
     font-weight: 600;
-    margin-right: 5px;
     padding: 0;
-    padding-bottom: 20px;
   }
 }
 
