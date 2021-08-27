@@ -187,24 +187,25 @@
 
 @media only screen and (max-width: 600px) {
   .filter {
+    width: 100%;
     display: flex;
     flex-flow: column;
-    justify-content: left;
+    justify-content: center;
     align-items: flex-start;
     margin: 5%;
   }
 
   ul {
-    width: 100%;
+    width: 80%;
     height: auto;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .item1 li {
-    width: 60%;
+    width:60%;
     flex: 1;
     justify-content: center;
     text-align: center;
@@ -229,12 +230,13 @@
 
   .item1 li:nth-child(1) {
     width: 50%;
+  
   }
 
   .item1 li:nth-child(2) {
-    width: 50%;
-    align-self: flex-end;
+    width: 45%;
   }
+
 }
 
 /* Element Hebergement & Populaires */
@@ -336,7 +338,7 @@
   .images {
     object-fit: cover;
     object-position: center;
-    width: 337px;
+    width: 400px;
     height: 192px;
     border-radius: 15px 15px 0px 0px;
   }

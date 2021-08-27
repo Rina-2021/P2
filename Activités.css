@@ -9,8 +9,13 @@
 
 .Activités {
   display: grid;
+  height: fit-content;
   grid-template-columns: repeat(4, 1fr);
-  gap: 5px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "vieux fort parcvertical notre"
+    "vieux ile parcvertical parc";
+  gap: 3px;
   justify-content: space-around;
 }
 
@@ -30,6 +35,10 @@
   position: relative;
 }
 
+.oneline {
+  display: grid;
+}
+
 .fort {
   border: #f2f2f2 solid 2px;
   border-style: solid;
@@ -40,7 +49,6 @@
   position: relative;
 }
 
-/*need to set this element same with element on the left */
 .ile {
   border: #f2f2f2 solid 2px;
   border-style: solid;
@@ -49,7 +57,6 @@
   margin: 0.5em;
   box-shadow: 3px 3px 3px lightgray;
   position: relative;
-  align-self: stretch;
 }
 
 .parc {
