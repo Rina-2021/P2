@@ -131,6 +131,10 @@
     font-weight: normal;
     margin: 5%;
   }
+
+  p {
+    font-size: 0.9em;
+  }
 }
 
 /*Main Elements of rechercher*/
@@ -205,8 +209,8 @@
   h6 {
     display: flex;
     justify-content: flex-start;
-    margin-right: 10%;
-    font-size: 1.1em;
+    margin-right: 15%;
+    font-size: 1em;
     font-weight: normal;
     text-align: left;
     padding: 0;
@@ -226,11 +230,7 @@
 
     ul {
       width: 80%;
-      height: auto;
       flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
     }
 
     .item1 li {
@@ -263,6 +263,14 @@
 
     .item1 li:nth-child(2) {
       width: 45%;
+    }
+
+    .item1 li:nth-child(3) {
+      flex: 0 0 auto;
+    }
+
+    .item1 li:nth-child(4) {
+      flex: 0 0 auto;
     }
   }
 
@@ -363,7 +371,8 @@
     }
   }
   .images {
-    object-fit: initial;
+    width: auto;
+    object-fit: cover;
     object-position: center;
     width: 437px;
     height: 190px;
@@ -383,7 +392,7 @@
   }
 
   .containerfooter {
-    width: 55%;
+    width: 60%;
     flex-direction: column;
     align-self: start;
     justify-content: left;
