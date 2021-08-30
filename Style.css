@@ -217,7 +217,7 @@ a :disabled {
 }
 
 #Rechercher {
-  font-weight: bold;
+  font-weight: normal;
   padding: 3px;
   display: inline-block;
   border-color: #f2f2f2;

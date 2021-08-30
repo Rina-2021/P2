@@ -10,7 +10,7 @@
 .Activités {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: 0.2fr;
   grid-template-areas:
     "vieux fort parcvertical notre"
     "vieux ile parcvertical parc";
@@ -19,6 +19,7 @@
 }
 
 .images {
+  object-fit: cover;
   width: 100%;
   height: auto;
   border-radius: 15px 15px 0px 0px;
