@@ -57,6 +57,8 @@ h6 {
   font-size: 0.9em;
   font-weight: normal;
   font-family: "Raleway";
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -149,7 +151,7 @@ nav a {
   text-align: center;
   font-size: 1em;
   text-decoration: none;
-  /* padding: 15px 15px; */
+  padding: 15px 15px;
   color: #0065fc;
 }
 
@@ -173,7 +175,8 @@ a.button {
 
 .Trouvez_votre_hébergement {
   align-content: flex-start;
-  line-height: 10px;
+  margin-top: 20px;
+  line-height: 5px;
 }
 
 /*Element location rechercher */
