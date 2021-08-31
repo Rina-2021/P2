@@ -432,8 +432,8 @@ footer {
   text-align: justify;
 }
 
-.p a:hover {
-  color: black;
+p a:hover {
+  color: blue;
   text-decoration: none;
 }
 
