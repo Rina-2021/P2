@@ -207,6 +207,7 @@ a :disabled {
 .mapmarker {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 3px;
   width: 18px;
   height: 18px;
@@ -400,7 +401,7 @@ ul.filters {
 footer {
   display: flex;
   align-items: center;
-  min-width: 100%;
+  min-width: 60%;
   background-color: #f2f2f2;
   bottom: 0;
   left: 0;
@@ -413,7 +414,7 @@ footer {
   width: 100%;
   flex-grow: 1;
   max-width: 900px;
-  padding: 0 15px;
+
   display: flex;
   margin: auto;
   align-content: space-between;

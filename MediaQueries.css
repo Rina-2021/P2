@@ -73,12 +73,13 @@
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
-    align-content: space-between;
   }
 
   nav a {
     font-size: 1em;
     padding: 0;
+    height: 32px;
+    flex-grow: 1;
   }
 
   nav a:hover {
@@ -119,7 +120,7 @@
   }
 
   h1 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
     text-align: left;
     line-height: 30px;
@@ -135,7 +136,7 @@
   }
 
   h5 {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: normal;
     margin: 5%;
   }
@@ -394,7 +395,7 @@
     margin-top: 20px;
     float: none;
     width: 100%;
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   .containerfooter {
