@@ -43,6 +43,10 @@
   .relative {
     flex: 1 1 0;
   }
+
+  .containerfooter {
+    width: auto;
+  }
 }
 
 /*Mobile Query*/
