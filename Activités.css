@@ -10,7 +10,7 @@
 .Activités {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 200px);
+
   grid-template-areas:
     "vieux fort parcvertical notre"
     "vieux ile parcvertical parc";
@@ -91,7 +91,6 @@
 
 .imagebox {
   display: flex;
-  object-fit: cover;
   width: 100%;
   height: 100%;
   flex-direction: column;

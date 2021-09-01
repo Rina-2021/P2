@@ -41,6 +41,7 @@ img.rounded-corners {
   margin-right: 5px;
   display: flex;
   flex-wrap: wrap;
+  flex-grow: 1;
   justify-content: space-around;
   align-items: flex-start;
 }

@@ -130,14 +130,14 @@ header {
 nav {
   display: flex;
   flex-grow: 1;
-  justify-content: flex-end; /* important */
+  justify-content: flex-end;
   font-size: 1em;
   text-decoration: none;
   text-align: center;
 }
 
 nav a:hover {
-  box-shadow: 0 0 2px 0 #0065fc;
+  border-top: solid 2px #0065fc;
   align-items: center;
 }
 
@@ -408,6 +408,7 @@ footer {
 
 .containerfooter {
   width: 100%;
+  flex-grow: 1;
   max-width: 900px;
   padding: 0 15px;
   display: flex;
