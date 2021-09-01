@@ -414,13 +414,14 @@ footer {
   display: flex;
   margin: auto;
   align-content: space-between;
+  justify-content: space-around;
 }
 
 .column1of3,
 .column2of3,
 .column3of3 {
   justify-content: space-around;
-  width: 280px;
+  width: 200px;
   height: auto;
   display: flex;
   line-height: 3px;
