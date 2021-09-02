@@ -10,7 +10,6 @@
 .Activités {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
   grid-template-areas:
     "vieux fort parcvertical notre"
     "vieux ile parcvertical parc";
