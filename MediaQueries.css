@@ -66,6 +66,10 @@
     margin-left: 5%;
   }
 
+  img.logo {
+    z-index: 2;
+  }
+
   nav {
     width: 100%;
     position: relative;
@@ -76,8 +80,10 @@
   }
 
   nav a {
+    box-shadow: 0 2px 0 0 transparent;
     font-size: 1em;
     padding: 0;
+    border-top: 0;
     height: 32px;
     flex-grow: 1;
   }
@@ -120,7 +126,7 @@
   }
 
   h1 {
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: bold;
     text-align: left;
     line-height: 30px;
@@ -128,15 +134,15 @@
   }
 
   h2 {
-    font-size: 1.1em;
+    font-size: 0.9em;
   }
 
   h3 {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   h5 {
-    font-size: 1em;
+    font-size: 0.7em;
     font-weight: normal;
     margin: 5%;
   }
@@ -152,13 +158,13 @@
   .loupe {
     display: none;
   }
-  .button1 {
+  input[type="submit"] {
     display: inline;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .button1 {
+  input[type="submit"] {
     display: none;
   }
   .loupe {
@@ -186,10 +192,10 @@
   }
 
   #Rechercher {
-    width: 230px;
-    height: 100%;
+    width: 9em;
+    height: 90%;
     font-size: 1em;
-    border: 2px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
   }
 
   .loupe {
@@ -203,6 +209,7 @@
     font-size: 1.1em;
     align-items: center;
     margin-left: -15%;
+    cursor: pointer;
   }
 }
 
@@ -244,16 +251,16 @@
     }
 
     .item1 li {
-      width: 60%;
       flex: 1;
-      justify-content: center;
+      justify-content: left;
       text-align: center;
       border: solid #f2f2f2 1px;
       margin: 0;
     }
 
-    .item1 a {
-      font-size: 0.8em;
+    .item1 button {
+      font-size: 0.7em;
+      font-weight: 600;
     }
 
     .moneybill,
@@ -277,6 +284,10 @@
     }
 
     .item1 li:nth-child(3) {
+      flex: 0 0 auto;
+    }
+
+    .item1 li:nth-child(4) {
       flex: 0 0 auto;
     }
   }

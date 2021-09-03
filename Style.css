@@ -86,10 +86,6 @@ ul i {
   font-size: 0.9em;
 }
 
-.button:hover {
-  border-width: 1px;
-}
-
 .button:active {
   background: transparent;
   color: white;
@@ -120,8 +116,8 @@ header {
 .logo {
   display: flex;
   align-items: baseline;
-  width: 100px;
-  height: 50px;
+  width: 5.5em;
+  height: 3.5em;
   position: absolute;
   top: 8px;
   left: 0;
@@ -185,7 +181,7 @@ a.button {
   justify-content: left;
 }
 
-.button1 {
+input[type="submit"] {
   background-color: #0065fc;
   font-family: "Raleway";
   font-weight: bold;
@@ -194,9 +190,10 @@ a.button {
   padding: 6px;
   text-align: left;
   display: inline-block;
-  width: 85px;
+  width: 7em;
   font-size: 0.7em;
   border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
 }
 
 .button1 a:hover,
@@ -210,8 +207,8 @@ a :disabled {
   justify-content: center;
   align-items: center;
   padding: 3px;
-  width: 18px;
-  height: 18px;
+  width: 1em;
+  height: 1.2em;
   align-content: center;
   background-color: #f2f2f2;
   border-radius: 5px 0px 0px 5px;
@@ -222,7 +219,7 @@ a :disabled {
   padding: 3px;
   display: inline-block;
   border-color: #f2f2f2;
-  width: 120px;
+  width: 8em;
   font-size: 0.8em;
   border-radius: 0px 0px 0px 0px;
 }
@@ -233,8 +230,6 @@ a :disabled {
   flex-grow: 1;
   align-items: center;
   align-content: flex-start;
-  gap: 15px;
-  margin-top: 10px;
 }
 
 .nopadding {
@@ -292,16 +287,22 @@ ul.filters {
   border-radius: 20px;
 }
 
-.item1 a {
+.item1 button {
   flex-wrap: wrap;
   gap: 2px;
   display: block;
-  padding: 3px;
   text-decoration: none;
   color: black;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 0.7em;
+  font-weight: 600;
+  align-items: center;
 }
 
-.item1 a:hover {
+.item1 button:hover {
+  font-size: 0.7em;
+  font-weight: 600;
   align-items: center;
   color: #0065fc;
 }
@@ -315,9 +316,10 @@ ul.filters {
   padding: 8px;
   border-radius: 50%;
   background-color: #deebff;
-  width: 21px;
-  height: 21px;
+  width: 1.1em;
+  height: 1.1em;
   align-content: center;
+  align-items: center;
   transform: scale(1.2);
   -webkit-transform: scale(1.2);
   -webkit-transition: 0.3s ease-in-out;
