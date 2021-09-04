@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   background-color: #f2f2f2;
   border-radius: 10px;
-  width: 650px;
+  width: 40.6em;
   padding: 1px;
   position: relative;
 }
@@ -20,7 +20,7 @@
 }
 
 .hotel img {
-  width: 200px;
+  width: 12.5em;
   display: flex;
   align-items: center;
 }
@@ -56,12 +56,8 @@ img.rounded-corners {
   display: flex;
 }
 
-.stars img {
-  width: 30px;
-}
-
 .star {
-  font-size: 10px;
+  font-size: 0.7em;
 }
 
 .filled {
