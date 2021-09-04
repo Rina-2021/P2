@@ -241,8 +241,8 @@ a :disabled {
   border-radius: 25px;
   margin: 20px;
   padding: 10px 10px;
-  width: 100px;
-  height: 100px;
+  width: 6.25em;
+  height: 6.25em;
   box-sizing: content-box;
   display: block;
 }
@@ -258,7 +258,6 @@ a :disabled {
 /*Filters*/
 ul.filters {
   display: flex;
-  margin: 20px;
 }
 
 ul.filters li {
@@ -356,7 +355,7 @@ ul.filters {
   color: #0065fc;
   background-color: #fff;
   border: 2px solid #f2f2f2;
-  font-size: 10px;
+  font-size: 0.6em;
   padding: 5px;
   width: 10px;
   height: 10px;
@@ -367,13 +366,14 @@ ul.filters {
   display: inline-block;
 }
 
+/*icon i size*/
 #info i {
-  font-size: 5px;
-  width: 5px;
-  height: 5px;
+  font-size: 0.6em;
+  width: 10px;
+  height: 10px;
   text-align: center;
-  line-height: 5px;
   border-radius: 5px;
+  border-radius: 50%;
 }
 
 /*Section Hebergements*/
@@ -392,8 +392,8 @@ ul.filters {
 .initial {
   -webkit-flex: initial;
   flex: initial;
-  width: 200px;
-  min-width: 100px;
+  width: 12.5em;
+  min-width: 16.25em;
 }
 
 .fill {
@@ -416,8 +416,7 @@ footer {
 .containerfooter {
   width: 100%;
   flex-grow: 1;
-  max-width: 900px;
-
+  max-width: 56.25em;
   display: flex;
   margin: auto;
   align-content: space-between;
@@ -428,7 +427,7 @@ footer {
 .column2of3,
 .column3of3 {
   justify-content: space-around;
-  width: 200px;
+  width: 12.5em;
   height: auto;
   display: flex;
   line-height: 3px;
