@@ -385,14 +385,13 @@
 
     .Marseille {
       font-size: 1.5em;
-      margin-left: 5%;
     }
   }
   .images {
     width: auto;
     object-fit: cover;
     object-position: center;
-    width: 24em;
+    width: 26em;
     height: 12em;
     border-radius: 15px 15px 0px 0px;
   }
@@ -421,7 +420,7 @@
   .column2of3,
   .column3of3 {
     width: 100%;
-    margin-left: 10%;
+    margin-left: 3%;
     line-height: 3px;
   }
 }

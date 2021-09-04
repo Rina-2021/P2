@@ -90,10 +90,12 @@
 
 .imagebox {
   display: flex;
+  object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: auto;
   flex-direction: column;
-  align-content: center;
+  justify-content: space-between;
+  line-height: 0.2em;
 }
 
 .mobilesize {
